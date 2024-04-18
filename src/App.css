@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.your-element-class {
+  background: linear-gradient(
+    90.17deg,
+    rgba(18, 18, 18, 0.88) 1.03%,
+    rgba(18, 18, 18, 0.829) 50.18%,
+    rgba(1, 1, 1, 0.12) 95.15%
+  );
+}
+
+.your-element-class2 {
+  background: linear-gradient(
+    180deg,
+    rgba(24, 24, 24, 0.87) 0%,
+    rgba(34, 34, 34, 0.48) 100%
+  );
+}
+
+.Robot {
+  font-family: "Roboto", sans-serif;
+}
+.Dinpro {
+  font-family: "Barlow", sans-serif;
+}
