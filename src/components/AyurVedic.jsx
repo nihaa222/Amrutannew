@@ -130,7 +130,7 @@ const AyurVedic = () => {
       </div>
 
       <div className="pt-20">
-        <div className="lg:flex gap-4 max-w-[1400px] mx-auto hidden ">
+        <div className="lg:flex gap-4 max-w-[1400px] lg:mx-auto mx-[40px] hidden ">
           <div className=" bg-[#FFF7E2] flex gap-4 ml-20 justify-center items-center flex-col w-[500px] shadow-top  rounded-b-[20px] relative px-[24px] pt-[20px] pb-[40px] rounded-tl-[50px] border-[#3A643B] border-t-[8px] rounded-tr-[50px] ">
             <div className="   w-[90px] h-[90px] pt-2 rounded-full text-white bg-[#77ad79] mt-[14px] text-[48px] font-bold text-center ">
               1
@@ -182,10 +182,10 @@ const AyurVedic = () => {
         </div>
       </div>
 
-      <div className="slider-container block lg:hidden">
+      <div className="slider-container block lg:hidden max-w-[800px] mx-auto">
         <Slider {...settings}>
           <div>
-            <div className=" bg-[#FFF7E2] flex mx-auto   gap-4 justify-center items-center flex-col w-[300px] shadow-top ml-[20px] rounded-b-[20px] mx-[100px] relative px-[20px] pt-[20px] pb-[40px] rounded-tl-[50px] border-[#3A643B] border-t-[8px] rounded-tr-[50px] ">
+            <div className=" bg-[#FFF7E2] flex ml-[60px]  gap-4 justify-center items-center flex-col w-[300px] shadow-top md:ml-[30px] rounded-b-[20px] mx-[100px] relative px-[20px] pt-[20px] pb-[40px] rounded-tl-[50px] border-[#3A643B] border-t-[8px] rounded-tr-[50px] ">
               <div className="   w-[90px] h-[90px] pt-2 rounded-full text-white bg-[#77ad79] mt-[14px] text-[48px] font-bold text-center ">
                 1
               </div>
@@ -200,7 +200,7 @@ const AyurVedic = () => {
             </div>
           </div>
           <div>
-            <div className=" bg-[#FFF7E2] flex gap-4 justify-center items-center flex-col w-[300px] shadow-top ml-[20px] rounded-b-[20px] relative px-[24px] pt-[20px] pb-[40px] rounded-tl-[50px] border-[#3A643B] border-t-[8px] rounded-tr-[50px] ">
+            <div className=" bg-[#FFF7E2] flex gap-4 justify-center  ml-[60px] items-center flex-col w-[300px] shadow-top md:ml-[30px] rounded-b-[20px] relative px-[24px] pt-[20px] pb-[40px] rounded-tl-[50px] border-[#3A643B] border-t-[8px] rounded-tr-[50px] ">
               <div className="   w-[90px] h-[90px] pt-2 rounded-full text-white bg-[#77ad79] mt-[14px] text-[48px] font-bold text-center ">
                 1
               </div>
@@ -215,7 +215,7 @@ const AyurVedic = () => {
             </div>
           </div>
           <div>
-            <div className=" bg-[#FFF7E2] flex gap-4 justify-center items-center flex-col w-[300px] shadow-top ml-[20px] rounded-b-[20px] relative px-[24px] pt-[20px] pb-[40px] rounded-tl-[50px] border-[#3A643B] border-t-[8px] rounded-tr-[50px] ">
+            <div className=" bg-[#FFF7E2] flex gap-4 ml-[60px] justify-center items-center flex-col w-[300px] shadow-top md:ml-[20px] rounded-b-[20px] relative px-[24px] pt-[20px] pb-[40px] rounded-tl-[50px] border-[#3A643B] border-t-[8px] rounded-tr-[50px] ">
               <div className="   w-[90px] h-[90px] pt-2 rounded-full text-white bg-[#77ad79] mt-[14px] text-[48px] font-bold text-center ">
                 1
               </div>
@@ -230,7 +230,7 @@ const AyurVedic = () => {
             </div>
           </div>
           <div>
-            <div className=" bg-[#FFF7E2] flex gap-4 justify-center items-center flex-col w-[300px] shadow-top ml-[20px] rounded-b-[20px] relative px-[24px] pt-[20px] pb-[40px] rounded-tl-[50px] border-[#3A643B] border-t-[8px] rounded-tr-[50px] ">
+            <div className=" bg-[#FFF7E2] flex ml-[60px] gap-4 justify-center items-center flex-col w-[300px] shadow-top md:ml-[20px] rounded-b-[20px] relative px-[24px] pt-[20px] pb-[40px] rounded-tl-[50px] border-[#3A643B] border-t-[8px] rounded-tr-[50px] ">
               <div className="   w-[90px] h-[90px] pt-2 rounded-full text-white bg-[#77ad79] mt-[14px] text-[48px] font-bold text-center ">
                 1
               </div>
