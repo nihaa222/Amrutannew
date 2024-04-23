@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./styles/Experts.css";
 
 let obj = {
   img: "/Ellipse 725.png",
@@ -58,7 +59,7 @@ const Expert = () => {
       <div className=" h-[808px] mt-[100px] w-full bg-white ">
         <div className="Dinpro w-[296px] mx-auto md:w-full relative text-center text-[#3A643B] font-bold text-[32px] lg:text-[48px]">
           Meet our Ayurveda experts
-          <div className="h-1 w-[800px] mx-auto top-[58px] hidden lg:block left-[600px] absolute bg-[#C3D0C4]"></div>{" "}
+          <div className="h-1 w-[800px] mx-auto top-[58px] hidden xl:block left-[300px] absolute bg-[#C3D0C4]"></div>{" "}
         </div>
 
         <div className=" max-w-[1200px] mx-auto">
@@ -67,7 +68,7 @@ const Expert = () => {
               {array.map((item) => (
                 <div
                   key={item.id}
-                  className=" rounded-[40px] w-[206px] pt-8 border-[2px] h-[446px] flex  items-center justify-center "
+                  className=" red rounded-[40px] w-[206px] pt-8 border-[2px] h-[446px] flex  items-center justify-center "
                 >
                   <div className="relative h-full  flex flex-col gap-3 justify-center items-center ">
                     <div>

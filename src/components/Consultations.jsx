@@ -3,7 +3,7 @@ import React from "react";
 const Consultations = () => {
   return (
     <>
-      <div className="bg-gradient-to-br mt-[70px] font-bold h-full pb-[200px]  from-yellow-100 to-yellow-50   w-full">
+      <div className="bg-gradient-to-br mt-[70px] font-bold h-full pb-[100px]  from-yellow-100 to-yellow-50   w-full">
         <div className="pt-[79px] mx-auto">
           <p
             className="text-center text-[#3A643B] 
@@ -13,7 +13,7 @@ const Consultations = () => {
           </p>
         </div>
         <div className="mt-[100px]  lg:mx-[200px] mx-[20px]">
-          <div className="grid gap-2 grid-cols-maxy lg:grid-cols-4">
+          <div className="grid gap-4 lg:gap-2 grid-cols-maxy lg:grid-cols-4">
             {/* 1 */}
             <div className=" bg-white w-full border-[#3A643B] border-t-[8px] rounded-tl-[50px] rounded-tr-[50px] pt-[48px] pb-[48px] px-[32px] h-full col-span-1 md:col-span-2 text-center  ">
               <p className="font-semibold leading-[50.88px] text-[32px] text-[#3A643B] ">

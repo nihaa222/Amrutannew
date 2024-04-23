@@ -2,7 +2,7 @@ import React from "react";
 
 const Phone = () => {
   return (
-    <div className="h-[1059px] md:h-[808px] bg-[#FFF7E2]  lg:p-[200px]  pt-[100px] grid grid-cols-1 md:grid-cols-2 mt-[100px] md:flex-row gap-6">
+    <div className="h-[1159px] md:h-[808px] bg-[#FFF7E2]  lg:p-[200px]  pt-[10px] grid grid-cols-1 md:grid-cols-2 mt-[10px] md:mt-[100px] md:flex-row gap-6">
       <div className=" w-[306px] md:w-full  self-end justify-self-center lg:justify-self-start ">
         {" "}
         {/* Adding flex and items-center classes */}
@@ -38,7 +38,7 @@ const Phone = () => {
           ></img>
         </div>
       </div>
-      <div className="row-span-2  grid justify-self-end ">
+      <div className="row-span-1 md:row-span-2  grid justify-self-end ">
         <img src="/desktop/Group 39489.png" alt="Image"></img>
       </div>
     </div>
