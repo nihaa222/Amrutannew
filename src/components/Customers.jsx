@@ -14,8 +14,8 @@ const Customers = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -32,7 +32,7 @@ const Customers = () => {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 4,
+          slidesToScroll: 3,
         },
       },
     ],
@@ -42,13 +42,13 @@ const Customers = () => {
       <div className="w-full h-[710px] relative mt-[100px] pt-[100px] bg-[#FFF7E2]">
         <p className="lg:text-[48px] text-[32px] mb-20 mx-[30px] text-center text-[#3A643B] Dinpro font-bold">
           STORIES FROM OUR VALUED CUSTOMERS!
-          <div className="h-1 w-[600px] top-[140px]  hidden md:block left-[170px] absolute bg-[#C3D0C4]"></div>
+          <div className="h-1 w-[900px]  top-[140px] md:top-[160px]   hidden lg:block left-[50px] xl:left-[280px] 2xl:left-[500px]  absolute bg-[#C3D0C4]"></div>
         </p>
 
         <div className="max-w-[1200px] mx-auto">
           <div className="slider-container">
             <Slider {...settings}>
-              <div className="mx-auto  ml-[40px] md:ml-0">
+              <div className="mx-auto ">
                 <div className="ml-0 relative">
                   <div className="bg-[#F5F3FC] font-bold relative pt-[10px] text-black w-[304px] h-[55px] pl-[26px]">
                     <p>Consulted for Skin</p>

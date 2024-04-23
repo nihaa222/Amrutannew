@@ -5,6 +5,7 @@ import Customers from "./components/Customers";
 import { Discover } from "./components/Discover";
 import Expert from "./components/Expert";
 import { Heading } from "./components/Heading";
+import Phone from "./components/Phone";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Consultations />
         <AyurVedic />
         <Customers />
-        {/* <Expert /> */}
+        <Expert />
+        <Phone />
       </div>
     </>
   );
