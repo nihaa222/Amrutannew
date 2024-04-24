@@ -59,7 +59,7 @@ const Expert = () => {
       <div className=" h-[808px] mt-[100px] w-full bg-white ">
         <div className="Dinpro w-[296px] mx-auto md:w-full relative text-center text-[#3A643B] font-bold text-[32px] lg:text-[48px]">
           Meet our Ayurveda experts
-          <div className="h-1 w-[800px] mx-auto top-[58px] hidden xl:block left-[300px] absolute bg-[#C3D0C4]"></div>{" "}
+          <div className="h-1 w-[700px] mx-auto top-[58px] hidden xl:block left-[600px] absolute bg-[#C3D0C4]"></div>{" "}
         </div>
 
         <div className=" max-w-[1200px] mx-auto">

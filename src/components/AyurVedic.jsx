@@ -130,7 +130,7 @@ const AyurVedic = () => {
       </div>
 
       <div className="pt-20">
-        <div className="lg:flex  max-w-[1400px] lg:mx-auto mx-[40px] hidden ">
+        <div className="lg:flex  max-w-[1400px] lg:mx-auto e hidden ">
           <div className=" bg-[#FFF7E2] flex  gap- justify-center items-center flex-col w-[500px] shadow-top  rounded-b-[20px] relative px-[24px] -[100px] ml- pt-[20px] pb-[40px] rounded-tl-[50px]  border-[#3A643B] border-t-[8px] rounded-tr-[50px] ">
             <div className="-ml-[199px] w-[90px] h-[90px] pt-2 rounded-full text-white bg-[#77ad79] mt-[14px] text-[48px] font-bold text-center ">
               1
